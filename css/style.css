@@ -10,7 +10,7 @@
 
 	body
 	{
-		background: #F8F8F8;
+		background: #Ffffff;
 	}
 
 		body.is-loading *
@@ -993,10 +993,8 @@
 
 			.main > .content.style3
 			{
-				background:	url('images/bgtr.svg') top right no-repeat,
-							url('images/bgbl.svg') bottom left no-repeat,
-							url('images/overlay.png'),
-							linear-gradient(45deg, #5f796b, #3a4e59, #2f394e);
+				background-image:url('images/pic08.jpg');
+						
 			}
 
 			.main > .content.style4
