@@ -35,6 +35,7 @@
 		line-height: 1.75em;
 		color: #888;
 		-webkit-text-stroke: 0.1px;
+		padding-bottom: 30px;
 	}
 
 	h1,h2,h3,h4,h5,h6
@@ -58,7 +59,8 @@
 		.dark h5,
 		.dark h6
 		{
-			color: #fff;
+			color: #7A7C7E;
+			font-weight: 400;
 		}
 		
 	strong, b
@@ -672,9 +674,9 @@
 			.dark input[type="reset"],
 			.dark .button
 			{
-				background: rgba(255,255,255,0.15);
-				box-shadow: inset 0 0 0 1px #fff;
+				background: #7A7C7E;
 				color: #fff;
+
 			}
 			
 				.dark input[type="button"]:hover,
@@ -682,7 +684,8 @@
 				.dark input[type="reset"]:hover,
 				.dark .button:hover
 				{
-					background: rgba(255,255,255,0.25);
+					background: #fff;
+					color: #7A7C7E;
 				}
 
 			.dark input[type="button"].alt,
@@ -777,8 +780,10 @@
 
 		.dark
 		{
-			color: #aaa;
-			color: rgba(255,255,255,0.65);
+			color:#7A7C7E;
+			font-weight: 300;
+			/* color: rgba(255,255,255,0.65); */
+
 		}
 			
 /*********************************************************************************/
@@ -851,10 +856,16 @@
 		#logo{
 			height: auto;
 			min-width: 10%;
-			max-width: 200px;
+			max-width: 150px;
 			max-height: auto;
 			opacity: .9;
-			padding-top: 30px;
+			padding-bottom: 30px;
+		}
+		#senior {
+			color: #7a7c7e;
+			margin: 0 0 1em 0;
+			font-weight: 300;
+			line-height: 1.5em;
 		}
 /*********************************************************************************/
 /* Image Grid                                                                    */
@@ -971,7 +982,7 @@
 
 			.main > .content.dark
 			{
-				background: #433;
+				background-image: url("images/overlay.png"), url("../images/header.jpg");
 			}
 			
 			.main > .content.style1
@@ -991,18 +1002,18 @@
 							linear-gradient(45deg, #384955, #655361, #85505f);
 			}
 
-			.main > .content.style3
-			{
-				background-image:url('images/pic08.jpg');
-						
-			}
 
 			.main > .content.style4
 			{
 				padding-top: 0;
 				background: #fff;
 			}
-
+			#kscope{
+				max-width: 400px;
+				max-height: auto;
+				padding-top: 20px;
+			}
+			
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
@@ -1012,7 +1023,7 @@
 		position: relative;
 		margin: 0;
 		text-align: center;
-		padding: 4em 0 8em 0;
+		/*padding: 4em 0 8em 0;*/
 		box-shadow: inset 0 1px 0 0 #e6e6e6;
 	}
 	
